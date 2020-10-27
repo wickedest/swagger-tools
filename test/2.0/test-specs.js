@@ -2254,18 +2254,6 @@ describe('Specification v2.0', function () {
     });
   });
 
-  describe('#convert', function () {
-    it('should throw an Error (unsupported)', function () {
-      try {
-        spec.convert();
-
-        assert.fail(null, null, 'Should had failed above');
-      } catch (err) {
-        assert.equal(err.message, 'Specification#convert only works for Swagger 1.2');
-      }
-    });
-  });
-
   describe('issues', function () {
     // This should be removed when the upstream bug in the Swagger schema is fixed
     //   https://github.com/swagger-api/swagger-spec/issues/174
