@@ -1,3 +1,7 @@
+This project is a fork of [swagger-tools](https://www.npmjs.com/package/swagger-tools).  See [`CHANGES.md`](./CHANGES.md).
+
+# swagger-tools
+
 The project provides various tools for integrating and interacting with Swagger.  This project is in its infancy but
 what is within the repository should be fully tested and reusable.  Please visit the [issue tracker][project-issues] to
 see what issues we are aware of and what features/enhancements we are working on.  Otherwise, feel free to review the
@@ -17,7 +21,7 @@ see what issues we are aware of and what features/enhancements we are working on
 
 ## Supported Swagger Versions
 
-* [1.2][swagger-docs-v1_2]
+* ~~[1.2][swagger-docs-v1_2]~~
 * [2.0][swagger-docs-v2_0]
 
 ## Features
