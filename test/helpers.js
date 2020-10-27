@@ -105,7 +105,6 @@ module.exports.createServer = function (initArgs, options, callback) {
 
     register(middleware.swaggerValidator(options.swaggerValidatorOptions));
     register(middleware.swaggerRouter(options.swaggerRouterOptions));
-    register(middleware.swaggerUi(options.swaggerUiOptions));
 
     register(handler);
 
