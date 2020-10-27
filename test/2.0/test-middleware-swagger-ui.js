@@ -40,7 +40,7 @@ var request = require('supertest');
 
 var swaggerObject = _.cloneDeep(require('../../samples/2.0/petstore.json'));
 
-describe('Swagger UI Middleware v2.0', function () {
+describe.skip('Swagger UI Middleware v2.0', function () {
   it('should serve Swagger documents at /api-docs by default', function (done) {
     helpers.createServer([swaggerObject], {}, function (app) {
       request(app)
